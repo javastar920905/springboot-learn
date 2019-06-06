@@ -19,6 +19,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>springbootbasic</module>
+        <module>springboot-security</module>
     </modules>
 
 
