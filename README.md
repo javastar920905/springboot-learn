@@ -2,9 +2,9 @@
 spring boot 学习示例
 
 ## 参考文档
+[爱折腾的爪哇猿博客-springboot auth2](http://javastar920905.coding.me/2019/06/spring-boot-auth2/)
 
 ## spring boot 基础
-
 ### 使用idea新建spring boot 项目
 - [ ] maven 配置多模块
 > * 新建子模块,选中父项目>new module>spring Initializr >输入模块名> 选中 devtools,lombok,web 依赖> 右键启动main方法就可以了
