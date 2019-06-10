@@ -51,6 +51,12 @@
     </dependencies>
 
     <build>
+        <!-- Spring Boot Maven 插件 提供了很多便捷的特性:
+
+         它收集类路径上的所有jar包，并构建一个可运行的jar包，这样可以更方便地执行和发布服务。
+         它寻找public static void main() 方法并标记为一个可执行的类.
+         它提供了一个内置的依赖解析器，将应用与Spring Boot依赖的版本号进行匹配。你可以修改成任意的版本，但它将默认为Boot所选择的一组版本。
+         -->
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
